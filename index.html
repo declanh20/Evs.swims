@@ -29,14 +29,14 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:20px 52px;display:fl
 .nav-cta:hover{box-shadow:0 6px 28px rgba(92,45,142,.6);transform:translateY(-1px);}
 
 /* HERO — split */
-.hero{position:relative;min-height:100vh;display:grid;grid-template-columns:1fr 1fr;align-items:center;z-index:2;}
-.hero-left{padding:140px 60px 80px;position:relative;}
+.hero{position:relative;min-height:110vh;display:grid;grid-template-columns:1fr 1fr;align-items:center;z-index:2;}
+.hero-left{padding:160px 60px 100px;position:relative;}
 .hero-tag-row{display:flex;align-items:center;gap:14px;margin-bottom:28px;opacity:0;animation:fadeUp .7s .2s forwards;}
 .hero-tag-line{width:36px;height:1px;background:linear-gradient(90deg,var(--gold),transparent);}
 .hero-tag-text{font-size:10px;font-weight:500;letter-spacing:4px;text-transform:uppercase;color:var(--gold-lt);}
 .hero-name{font-family:'Cormorant Garamond',serif;line-height:.88;margin-bottom:10px;opacity:0;animation:fadeUp .8s .32s forwards;}
-.hero-name .first{display:block;font-size:clamp(72px,9vw,118px);font-weight:300;font-style:italic;color:var(--white);letter-spacing:-1px;}
-.hero-name .last{display:block;font-size:clamp(72px,9vw,118px);font-weight:700;background:linear-gradient(135deg,var(--lilac) 0%,var(--gold-lt) 65%,var(--gold-pale) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;letter-spacing:2px;}
+.hero-name .first{display:block;font-size:clamp(58px,7.5vw,98px);font-weight:300;font-style:italic;color:var(--white);letter-spacing:-1px;}
+.hero-name .last{display:block;font-size:clamp(58px,7.5vw,98px);font-weight:700;background:linear-gradient(135deg,var(--lilac) 0%,var(--gold-lt) 65%,var(--gold-pale) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;letter-spacing:2px;}
 .hero-handle{font-family:'Cinzel',serif;font-size:13px;letter-spacing:4px;color:var(--gold);margin-bottom:24px;opacity:0;animation:fadeUp .7s .44s forwards;}
 .hero-desc{font-size:15px;line-height:1.78;color:var(--lavender);font-weight:300;max-width:380px;margin-bottom:34px;opacity:0;animation:fadeUp .7s .56s forwards;}
 .hero-pill-row{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:44px;opacity:0;animation:fadeUp .7s .68s forwards;}
@@ -70,12 +70,12 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:20px 52px;display:fl
 @keyframes floatCard{0%,100%{transform:translateY(0);}50%{transform:translateY(-10px);}}
 
 /* STATS BAND */
-.stats-band{position:relative;z-index:2;background:linear-gradient(90deg,rgba(45,27,78,.6),rgba(124,63,191,.35),rgba(45,27,78,.6));border-top:1px solid rgba(181,123,238,.12);border-bottom:1px solid rgba(181,123,238,.12);padding:26px 0;}
+.stats-band{position:relative;z-index:2;background:linear-gradient(90deg,rgba(45,27,78,.7),rgba(91,45,142,.45),rgba(45,27,78,.7));border-top:1px solid rgba(181,123,238,.15);border-bottom:1px solid rgba(181,123,238,.15);padding:44px 0;}
 .stats-inner{display:flex;justify-content:center;max-width:1100px;margin:0 auto;padding:0 48px;}
-.sblock{flex:1;text-align:center;padding:0 18px;border-right:1px solid rgba(181,123,238,.1);}
+.sblock{flex:1;text-align:center;padding:0 24px;border-right:1px solid rgba(181,123,238,.12);}
 .sblock:last-child{border-right:none;}
-.snum{font-family:'Cormorant Garamond',serif;font-size:40px;font-weight:700;line-height:1;background:linear-gradient(135deg,var(--lilac),var(--gold-lt));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
-.slbl{font-size:9px;letter-spacing:2.5px;text-transform:uppercase;color:var(--muted);margin-top:5px;}
+.snum{font-family:'Cormorant Garamond',serif;font-size:56px;font-weight:700;line-height:1;background:linear-gradient(135deg,var(--lilac),var(--gold-lt));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
+.slbl{font-size:10px;letter-spacing:2.5px;text-transform:uppercase;color:var(--muted);margin-top:8px;}
 
 /* WRAP */
 .wrap{position:relative;z-index:2;max-width:1200px;margin:0 auto;padding:100px 60px;}
@@ -278,7 +278,7 @@ footer{position:relative;z-index:2;text-align:center;padding:52px 40px;border-to
 <!-- STATS BAND -->
 <div class="stats-band">
   <div class="stats-inner">
-    <div class="sblock"><div class="snum">38.67s</div><div class="slbl">50m Breast · Top 10 QLD</div></div>
+    <div class="sblock"><div class="snum">3:04.37</div><div class="slbl">200m Breast · Silver QLD</div></div>
     <div class="sblock"><div class="snum">10+</div><div class="slbl">Hours / Week Training</div></div>
     <div class="sblock"><div class="snum">QLD</div><div class="slbl">State Qualified</div></div>
     <div class="sblock"><div class="snum">12</div><div class="slbl">Years Old</div></div>
